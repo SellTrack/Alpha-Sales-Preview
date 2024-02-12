@@ -1,0 +1,76 @@
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.deps.json
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.runtimeconfig.json
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.pdb
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Models.dll
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Utility.dll
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Models.pdb
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Utility.pdb
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.AssemblyReference.cache
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.AssemblyInfoInputs.cache
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.AssemblyInfo.cs
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.CoreCompileInputs.cache
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.CopyComplete
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/refint/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.pdb
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.genruntimeconfig.cache
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/backup/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/ref/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.deps.json
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.runtimeconfig.json
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.pdb
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Models.dll
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Utility.dll
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Models.pdb
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Utility.pdb
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.AssemblyReference.cache
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.AssemblyInfoInputs.cache
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.AssemblyInfo.cs
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.CoreCompileInputs.cache
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.CopyComplete
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/refint/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.pdb
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.genruntimeconfig.cache
+/Users/selmanorhan/Library/Mobile Documents/com~apple~CloudDocs/Projeler/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/ref/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.deps.json
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.runtimeconfig.json
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.pdb
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Models.dll
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Utility.dll
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Models.pdb
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Utility.pdb
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.AssemblyReference.cache
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.AssemblyInfoInputs.cache
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.AssemblyInfo.cs
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.CoreCompileInputs.cache
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.CopyComplete
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/refint/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.pdb
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.genruntimeconfig.cache
+/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/ref/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.deps.json
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.runtimeconfig.json
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.DataAccess.pdb
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Models.dll
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Utility.dll
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Models.pdb
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/bin/Debug/net7.0/AlphaSales.Utility.pdb
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.AssemblyReference.cache
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.AssemblyInfoInputs.cache
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.AssemblyInfo.cs
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.CoreCompileInputs.cache
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.csproj.CopyComplete
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/refint/AlphaSales.DataAccess.dll
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.pdb
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/AlphaSales.DataAccess.genruntimeconfig.cache
+/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/Debug/net7.0/ref/AlphaSales.DataAccess.dll

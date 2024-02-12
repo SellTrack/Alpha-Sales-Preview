@@ -1,0 +1,31 @@
+﻿@model Speciality
+
+<style>
+    .form-group {
+        margin-bottom: 3%; /* İstediğiniz yüzde cinsinden boşluk miktarını ayarlayabilirsiniz */
+    }
+</style>
+
+<div class="row mt-3">
+    <div class="col-md-6 offset-md-3">
+        <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+            @*<div asp-validation-summary=ModelOnly*></div>*@
+            <div class="row form-group">
+                <div class="col col-md-3">
+                    <label for="text-input" disabled class=" form-control-label">İsim</label>
+                </div>
+                <div class="col-12 col-md-9">
+                    <input asp-for="SpecialityName" id="text-input" name="SpecialityName" placeholder="Uzmanlık Alanı'nın İsmi" disabled class="form-control">
+                </div>
+            </div>
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary btn-sm">
+                    <i class="fa fa-dot-circle-o"></i> Uzmanlık Alanını Sil
+                </button>
+                <a type="reset" class="btn btn-danger btn-sm" asp-controller="Corporation" asp-action="Index">
+                    <i class="fa fa-ban"></i> İptal
+                </a>
+            </div>
+        </form>
+    </div>
+</div>

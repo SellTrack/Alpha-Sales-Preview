@@ -1,0 +1,59 @@
+﻿@model UserExerciseViewModel
+
+    <style>
+        .form-group {
+            margin-bottom: 3%; /* İstediğiniz yüzde cinsinden boşluk miktarını ayarlayabilirsiniz */
+        }
+    </style>
+
+    <div class="row mt-3">
+        <div class="col-md-6 offset-md-3">
+            <form method="post" enctype="multipart/form-data" class="form-horizontal">
+                <div class="row form-group">
+                    <input asp-for="UserExercisePlan.ApplicationUser" hidden />
+                    <input asp-for="UserExercisePlan.ExercisePlan" hidden />
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label asp-for="UserExercisePlan.Exercise_id" class="form-control-label">Egzersiz Planı</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <select asp-for="UserExercisePlan.Exercise_id" asp-items="@(new SelectList(Model.ExercisePlans, "ExercisePlan_id", "Exercise_Name"))" class="form-control">
+                            <option value="">Seçiniz</option>
+                        </select>
+                        <span asp-validation-for="UserExercisePlan.Exercise_id" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row form-group">
+                    <div class="col col-md-3">
+                        <label for="text-input" class=" form-control-label">Uzmanlık Sahibi Kişi</label>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <select asp-for="UserExercisePlan.Client_id" asp-items="@(new SelectList(Model.Users, "Id", "UserName"))" class="form-control">
+                            <option value="">Seçiniz</option>
+                        </select>
+                        <span asp-validation-for="UserExercisePlan.Client_id" class="text-danger"></span>
+                    </div>
+                </div>
+
+                @if (Model.UserExercisePlan.UserExercisePlan_id != 0)
+                {
+                    <button type="submit" class="btn btn-primary btn-sm">
+                        <i class="fa fa-dot-circle-o"></i> Değişiklikleri Kaydet
+                    </button>
+                }
+                else
+                {
+                    <button type="submit" class="btn btn-primary btn-sm">
+                        <i class="fa fa-dot-circle-o"></i> Egzersiz Planını Kullanıcıya Bağla
+                    </button>
+                }
+
+                <a type="reset" class="btn btn-danger btn-sm" asp-area="MasterMind" asp-controller="Admin" asp-action="UserExerciseList">
+                    <i class="fa fa-ban"></i> İptal
+                </a>
+            </form>
+        </div>
+    </div>

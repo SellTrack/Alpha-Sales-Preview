@@ -1,0 +1,190 @@
+﻿<Properties StartupConfiguration="{556B9F1D-555A-4C19-B773-748366F10F9F}|https">
+<<<<<<< HEAD
+  <MonoDevelop.Ide.Workbench ActiveDocument="Areas/ClientArea/Views/Client/Index.cshtml">
+    <Files>
+=======
+  <MonoDevelop.Ide.Workbench ActiveDocument="../AlphaSales.DataAccess/DbInitializer/DbInitializer.cs">
+    <Files>
+      <File FileName="appsettings.json" />
+      <File FileName="appsettings.Production.json" />
+      <File FileName="Areas/MasterMind/Views/Client/Upsert.cshtml" />
+      <File FileName="Areas/MasterMind/Controllers/ClientController.cs" />
+      <File FileName="../AlphaSales.Utility/SD.cs" />
+      <File FileName="Areas/Identity/Pages/Account/CustomRegister.cshtml" />
+      <File FileName="Areas/Identity/Pages/Account/CustomRegister.cshtml.cs" />
+      <File FileName="../AlphaSales.DataAccess/DbInitializer/IDbInitializer.cs" />
+      <File FileName="../AlphaSales.DataAccess/DbInitializer/DbInitializer.cs" Line="39" Column="86" />
+      <File FileName="Program.cs" />
+>>>>>>> parent of 6abdc0f (little file updates)
+      <File FileName="Areas/ClientArea/Controllers/HomeController.cs" />
+      <File FileName="Areas/ClientArea/Controllers/ClientController.cs" />
+      <File FileName="Areas/ClientArea/Views/Client/Index.cshtml" Line="13" Column="65" />
+      <File FileName="Areas/MasterMind/Controllers/AdminController.cs" />
+      <File FileName="Areas/MasterMind/Views/Admin/Index.cshtml" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Views/_ViewImports.cshtml" />
+<<<<<<< HEAD
+      <File FileName="Views/_ViewStart.cshtml" />
+      <File FileName="Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="Areas/CoachArea/Controllers/CoachController.cs" />
+      <File FileName="Areas/CoachArea/Views/Coach/Index.cshtml" />
+      <File FileName="Areas/MasterMind/Views/_ViewImports.cshtml" />
+      <File FileName="Areas/ClientArea/Views/Shared/Error.cshtml" />
+      <File FileName="Areas/MasterMind/Views/_ViewStart.cshtml" />
+      <File FileName="Areas/Identity/Pages/Account/Login.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Shared/_Layout.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="Areas/CoachArea/Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="Areas/ClientArea/Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="Areas/CoachArea/Views/Shared/_Layout.cshtml" />
+      <File FileName="Areas/ClientArea/Views/Shared/_Layout.cshtml" />
+      <File FileName="Areas/ClientArea/Views/Client/GuestIndex.cshtml" />
+      <File FileName="Areas/Identity/Pages/Account/CustomRegister.cshtml" />
+      <File FileName="../AlphaSales.Models/ApplicationUser.cs" />
+      <File FileName="Areas/Identity/Pages/Account/CustomRegister.cshtml.cs" />
+      <File FileName="Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml" />
+      <File FileName="Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml" />
+      <File FileName="Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Shared/_Layout.cshtml.css" />
+      <File FileName="Areas/ClientArea/Views/_ViewImports.cshtml" />
+      <File FileName="Areas/ClientArea/Views/_ViewStart.cshtml" />
+      <File FileName="Areas/CoachArea/Views/_ViewImports.cshtml" />
+      <File FileName="Areas/Identity/Pages/_ViewImports.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Shared/_LayoutGuest.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Shared/_LayoutGuest.cshtml.css" />
+      <File FileName="Areas/Identity/Pages/Account/_ViewImports.cshtml" />
+      <File FileName="Areas/Identity/Pages/Account/_StatusMessage.cshtml" />
+      <File FileName="Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" />
+      <File FileName="Areas/Identity/Pages/_ViewStart.cshtml" />
+      <File FileName="Hubs/ChatHub.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Areas/MasterMind/Views/Admin/Chat.cshtml" />
+      <File FileName="wwwroot/js/chat.js" />
+      <File FileName="Areas/MasterMind/Views/Admin/Users.cshtml" />
+      <File FileName="wwwroot/js/user.js" />
+      <File FileName="wwwroot/js/site.js" />
+      <File FileName="Areas/MasterMind/Views/Shared/_Notification.cshtml" />
+      <File FileName="../AlphaSales.Models/ViewModels/UserProfileViewModel.cs" />
+      <File FileName="../AlphaSales.DataAccess/Repository/UnitOfWork.cs" />
+      <File FileName="../AlphaSales.DataAccess/Repository/Repository.cs" />
+      <File FileName="../AlphaSales.DataAccess/Repository/IRepository/IUnitOfWork.cs" />
+      <File FileName="../AlphaSales.DataAccess/Repository/IRepository/IRepository.cs" />
+      <File FileName="../AlphaSales.DataAccess/Data/ApplicationDbContext.cs" />
+      <File FileName="../AlphaSales.DataAccess/Repository/SpecialityRepository.cs" />
+      <File FileName="../AlphaSales.Models/Speciality.cs" />
+      <File FileName="../AlphaSales.Models/Improvement.cs" />
+      <File FileName="../AlphaSales.Models/UserSpeciality.cs" />
+      <File FileName="Areas/MasterMind/Views/Admin/SpecialityList.cshtml" />
+      <File FileName="wwwroot/js/speciality.js" />
+      <File FileName="Areas/MasterMind/Views/Admin/Nutrition.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Admin/DeleteSpeciality.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Admin/EditSpeciality.cshtml" />
+      <File FileName="../AlphaSales.DataAccess/Repository/IRepository/IUserSpecialityRepository.cs" />
+      <File FileName="../AlphaSales.DataAccess/Repository/UserSpecialityRepository.cs" />
+      <File FileName="../AlphaSales.Models/ViewModels/UserSpecialityViewModel.cs" />
+      <File FileName="../AlphaSales.Models/ViewModels/SpecialityViewModel.cs" />
+      <File FileName="Areas/MasterMind/Views/Admin/CreateUserSpeciality.cshtml" />
+      <File FileName="wwwroot/js/userspeciality.js" />
+      <File FileName="../AlphaSales.Models/NutritionPlan.cs" />
+      <File FileName="Areas/MasterMind/Views/Admin/UserSpecialityList.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Admin/DeleteUserSpeciality.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Admin/EditUserSpeciality.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Admin/IndexExercise.cshtml" />
+      <File FileName="../AlphaSales.Models/ExercisePlan.cs" />
+      <File FileName="Areas/MasterMind/Views/Admin/CreateExercise.cshtml" />
+      <File FileName="../AlphaSales.DataAccess/Repository/IRepository/IExerciseRepository.cs" />
+      <File FileName="../AlphaSales.DataAccess/Repository/ExerciseRepository.cs" />
+      <File FileName="../AlphaSales.Models/ViewModels/ExerciseViewModel.cs" />
+      <File FileName="Areas/MasterMind/Views/Admin/CreateUserExercise.cshtml" />
+      <File FileName="../AlphaSales.Models/UserExercisePlan.cs" />
+      <File FileName="../AlphaSales.DataAccess/DbInitializer/DbInitializer.cs" />
+      <File FileName="../AlphaSales.DataAccess/DbInitializer/IDbInitializer.cs" />
+      <File FileName="../AlphaSales.DataAccess/Repository/IRepository/IUserExerciseRepository.cs" />
+      <File FileName="../AlphaSales.DataAccess/Repository/UserExerciseRepository.cs" />
+      <File FileName="../AlphaSales.Models/ViewModels/UserExerciseViewModel.cs" />
+      <File FileName="Areas/MasterMind/Views/Admin/UserExerciseList.cshtml" />
+      <File FileName="wwwroot/js/userexercise.js" />
+      <File FileName="Areas/MasterMind/Views/Admin/EditUserExercise.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Admin/ExerciseList.cshtml" />
+      <File FileName="wwwroot/js/exercise.js" />
+      <File FileName="Areas/MasterMind/Views/Admin/CreateSpeciality.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Admin/EditExercise.cshtml" />
+      <File FileName="wwwroot/js/userexec.js" />
+      <File FileName="Areas/ClientArea/Views/Client/IndexExercise.cshtml" />
+      <File FileName="Areas/CoachArea/Views/Coach/IndexExercise.cshtml" />
+      <File FileName="Areas/CoachArea/Views/Coach/EditUserSpeciality.cshtml" />
+      <File FileName="Areas/CoachArea/Views/Coach/SpecialityList.cshtml" Line="20" Column="61" />
+      <File FileName="libman.json" />
+=======
+      <File FileName="wwwroot/js/user.js" />
+      <File FileName="Areas/EmployeeArea/Controllers/Employee/EmployeeController.cs" />
+      <File FileName="Areas/EmployeeArea/Controllers/Executive/ExecutiveClientController.cs" />
+      <File FileName="Areas/EmployeeArea/Controllers/QCEmployee/QCEmployeeController.cs" />
+      <File FileName="Areas/EmployeeArea/Views/QCEmployee/Index.cshtml" />
+      <File FileName="Areas/MasterMind/Controllers/AdminController.cs" />
+      <File FileName="Areas/MasterMind/Views/Admin/RoleManagement.cshtml" />
+      <File FileName="Areas/EmployeeArea/Controllers/Executive/ExecutiveController.cs" />
+      <File FileName="wwwroot/js/userexec.js" />
+      <File FileName="Areas/EmployeeArea/Views/Executive/Index.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Corporation/Edit.cshtml" />
+      <File FileName="Areas/MasterMind/Views/Corporation/Delete.cshtml" />
+      <File FileName="../AlphaSales.Models/Corporation.cs" />
+      <File FileName="../AlphaSales.Models/Client.cs" />
+      <File FileName="Areas/MasterMind/Views/Client/QCEdit.cshtml" />
+>>>>>>> parent of 6abdc0f (little file updates)
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AlphaSales">
+<<<<<<< HEAD
+            <Node name="AlphaSales">
+              <Node name="Areas" expanded="True">
+                <Node name="ClientArea" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="Client" expanded="True">
+                      <Node name="Index.cshtml" selected="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="CoachArea" expanded="True">
+                  <Node name="Views" expanded="True">
+                    <Node name="Coach" expanded="True" />
+                  </Node>
+                </Node>
+=======
+            <Node name="AlphaSales" expanded="True" />
+            <Node name="AlphaSales.DataAccess">
+              <Node name="DbInitializer">
+                <Node name="DbInitializer.cs" selected="True" />
+>>>>>>> parent of 6abdc0f (little file updates)
+              </Node>
+              <Node name="Migrations" expanded="True" />
+            </Node>
+            <Node name="AlphaSales.Models" expanded="True" />
+            <Node name="AlphaSales.Utility" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+<<<<<<< HEAD
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Controllers/AdminController.cs" relfile="Areas/MasterMind/Controllers/AdminController.cs" line="265" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+=======
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+>>>>>>> parent of 6abdc0f (little file updates)
+  <MonoDevelop.Ide.ItemProperties.AlphaSales PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+</Properties>

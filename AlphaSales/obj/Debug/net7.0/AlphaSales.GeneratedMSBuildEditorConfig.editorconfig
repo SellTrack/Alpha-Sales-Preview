@@ -9,621 +9,333 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AlphaSales
 build_property.RootNamespace = AlphaSales
-build_property.ProjectDir = /Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/
+build_property.ProjectDir = /Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales
+build_property.MSBuildProjectDirectory = /Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/Chat.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvQ2hhdC5jc2h0bWw=
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/Employee/EmplClientIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL0VtcGxveWVlL0VtcGxDbGllbnRJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/CoachSpecialities.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvQ29hY2hTcGVjaWFsaXRpZXMuY3NodG1s
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL0VtcGxveWVlL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/CreateExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvQ3JlYXRlRXhlcmNpc2UuY3NodG1s
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/Employee/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL0VtcGxveWVlL1Vwc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/CreateSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvQ3JlYXRlU3BlY2lhbGl0eS5jc2h0bWw=
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/Executive/ExecutiveEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL0V4ZWN1dGl2ZS9FeGVjdXRpdmVFbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/CreateUserExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvQ3JlYXRlVXNlckV4ZXJjaXNlLmNzaHRtbA==
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/Executive/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL0V4ZWN1dGl2ZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/CreateUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvQ3JlYXRlVXNlclNwZWNpYWxpdHkuY3NodG1s
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/Executive/RoleManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL0V4ZWN1dGl2ZS9Sb2xlTWFuYWdlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/DeleteSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvRGVsZXRlU3BlY2lhbGl0eS5jc2h0bWw=
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/ExecutiveClient/ClientIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL0V4ZWN1dGl2ZUNsaWVudC9DbGllbnRJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/DeleteUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvRGVsZXRlVXNlclNwZWNpYWxpdHkuY3NodG1s
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/ExecutiveClient/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL0V4ZWN1dGl2ZUNsaWVudC9VcHNlcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/EditExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvRWRpdEV4ZXJjaXNlLmNzaHRtbA==
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/QCEmployee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL1FDRW1wbG95ZWUvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/EditSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvRWRpdFNwZWNpYWxpdHkuY3NodG1s
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/QCEmployee/QCClientIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL1FDRW1wbG95ZWUvUUNDbGllbnRJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/EditUserExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvRWRpdFVzZXJFeGVyY2lzZS5jc2h0bWw=
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/QCEmployee/QCEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL1FDRW1wbG95ZWUvUUNFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/EditUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvRWRpdFVzZXJTcGVjaWFsaXR5LmNzaHRtbA==
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/QCEmployee/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL1FDRW1wbG95ZWUvVXBzZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/ExerciseList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvRXhlcmNpc2VMaXN0LmNzaHRtbA==
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/Views/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL1ZpZXdzL19Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/GuestIndex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvR3Vlc3RJbmRleC5jc2h0bWw=
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL19WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvSW5kZXguY3NodG1s
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/EmployeeArea/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvRW1wbG95ZWVBcmVhL19WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/IndexExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvSW5kZXhFeGVyY2lzZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/Nutrition.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvTnV0cml0aW9uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/SpecialityList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvU3BlY2lhbGl0eUxpc3QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/UserExerciseList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvVXNlckV4ZXJjaXNlTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/Users.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvVXNlcnMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Client/UserSpecialityList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9DbGllbnQvVXNlclNwZWNpYWxpdHlMaXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9TaGFyZWQvRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9TaGFyZWQvX0xvZ2luUGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Shared/_Notification.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9TaGFyZWQvX05vdGlmaWNhdGlvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9TaGFyZWQvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9fVmlld0ltcG9ydHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9fVmlld1N0YXJ0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/Chat.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0NoYXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/CoachSpecialities.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0NvYWNoU3BlY2lhbGl0aWVzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/CreateExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0NyZWF0ZUV4ZXJjaXNlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/CreateSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0NyZWF0ZVNwZWNpYWxpdHkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/CreateUserExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0NyZWF0ZVVzZXJFeGVyY2lzZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/CreateUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0NyZWF0ZVVzZXJTcGVjaWFsaXR5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/DeleteSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0RlbGV0ZVNwZWNpYWxpdHkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/DeleteUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0RlbGV0ZVVzZXJTcGVjaWFsaXR5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/EditExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0VkaXRFeGVyY2lzZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/EditSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0VkaXRTcGVjaWFsaXR5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/EditUserExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0VkaXRVc2VyRXhlcmNpc2UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/EditUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0VkaXRVc2VyU3BlY2lhbGl0eS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/ExerciseList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0V4ZXJjaXNlTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0luZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/IndexExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL0luZGV4RXhlcmNpc2UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/Nutrition.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL051dHJpdGlvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/SpecialityList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL1NwZWNpYWxpdHlMaXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/UserExerciseList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL1VzZXJFeGVyY2lzZUxpc3QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/Users.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL1VzZXJzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Coach/UserSpecialityList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL0NvYWNoL1VzZXJTcGVjaWFsaXR5TGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL1NoYXJlZC9FcnJvci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL1NoYXJlZC9fTG9naW5QYXJ0aWFsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Shared/_Notification.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL1NoYXJlZC9fTm90aWZpY2F0aW9uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL1NoYXJlZC9fVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL19WaWV3SW1wb3J0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL19WaWV3U3RhcnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9BY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Db25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Db25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/CustomLogin.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/CustomLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9DdXN0b21Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/CustomRegister.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/CustomRegister.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9DdXN0b21SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ExecutiveRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9FeGVjdXRpdmVSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9FeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Gb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Lockout.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Login.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Logout.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/_LayoutGuest.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX0xheW91dEd1ZXN0LmNzaHRtbA==
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Register.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/Error.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/_ViewImports.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/Identity/Pages/_ViewStart.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Chat.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DaGF0LmNzaHRtbA==
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/LeaderBoardArea/Views/LeaderBoard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTGVhZGVyQm9hcmRBcmVhL1ZpZXdzL0xlYWRlckJvYXJkL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/Chat.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvQ2hhdC5jc2h0bWw=
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/LeaderBoardArea/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTGVhZGVyQm9hcmRBcmVhL19WaWV3SW1wb3J0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/CoachSpecialities.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvQ29hY2hTcGVjaWFsaXRpZXMuY3NodG1s
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/LeaderBoardArea/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTGVhZGVyQm9hcmRBcmVhL19WaWV3U3RhcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/CreateExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvQ3JlYXRlRXhlcmNpc2UuY3NodG1s
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/DeleteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9EZWxldGVVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/CreateSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvQ3JlYXRlU3BlY2lhbGl0eS5jc2h0bWw=
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Employee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9FbXBsb3llZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/CreateUserExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvQ3JlYXRlVXNlckV4ZXJjaXNlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/CreateUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvQ3JlYXRlVXNlclNwZWNpYWxpdHkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/DeleteSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvRGVsZXRlU3BlY2lhbGl0eS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/DeleteUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvRGVsZXRlVXNlclNwZWNpYWxpdHkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/EditExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvRWRpdEV4ZXJjaXNlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/EditSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvRWRpdFNwZWNpYWxpdHkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/EditUserExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvRWRpdFVzZXJFeGVyY2lzZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/EditUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvRWRpdFVzZXJTcGVjaWFsaXR5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/ExerciseList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvRXhlcmNpc2VMaXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/IndexExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvSW5kZXhFeGVyY2lzZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/Nutrition.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvTnV0cml0aW9uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/SpecialityList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvU3BlY2lhbGl0eUxpc3QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/UserExerciseList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvVXNlckV4ZXJjaXNlTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/Users.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvVXNlcnMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Client/UserSpecialityList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DbGllbnQvVXNlclNwZWNpYWxpdHlMaXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/CoachSpecialities.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9Db2FjaFNwZWNpYWxpdGllcy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/CreateExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DcmVhdGVFeGVyY2lzZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/CreateSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DcmVhdGVTcGVjaWFsaXR5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/CreateUserExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DcmVhdGVVc2VyRXhlcmNpc2UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/CreateUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9DcmVhdGVVc2VyU3BlY2lhbGl0eS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/DeleteSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9EZWxldGVTcGVjaWFsaXR5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/DeleteUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9EZWxldGVVc2VyU3BlY2lhbGl0eS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/EditExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9FZGl0RXhlcmNpc2UuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/EditSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9FZGl0U3BlY2lhbGl0eS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/EditUserExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9FZGl0VXNlckV4ZXJjaXNlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/EditUserSpeciality.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9FZGl0VXNlclNwZWNpYWxpdHkuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/ExerciseList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9FeGVyY2lzZUxpc3QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Index.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/IndexExercise.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9JbmRleEV4ZXJjaXNlLmNzaHRtbA==
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/RoleManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9Sb2xlTWFuYWdlbWVudC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Nutrition.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9OdXRyaXRpb24uY3NodG1s
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/Client/ClientIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9DbGllbnQvQ2xpZW50SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/SpecialityList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9TcGVjaWFsaXR5TGlzdC5jc2h0bWw=
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/Client/QCEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9DbGllbnQvUUNFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/UserExerciseList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9Vc2VyRXhlcmNpc2VMaXN0LmNzaHRtbA==
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/Client/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9DbGllbnQvVXBzZXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/Users.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9Vc2Vycy5jc2h0bWw=
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/Corporation/CreateCorporation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9Db3Jwb3JhdGlvbi9DcmVhdGVDb3Jwb3JhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Admin/UserSpecialityList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9BZG1pbi9Vc2VyU3BlY2lhbGl0eUxpc3QuY3NodG1s
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/Corporation/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9Db3Jwb3JhdGlvbi9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9TaGFyZWQvRXJyb3IuY3NodG1s
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/Corporation/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9Db3Jwb3JhdGlvbi9FZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Shared/_LoginPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9TaGFyZWQvX0xvZ2luUGFydGlhbC5jc2h0bWw=
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/Corporation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9Db3Jwb3JhdGlvbi9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Shared/_Notification.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9TaGFyZWQvX05vdGlmaWNhdGlvbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9TaGFyZWQvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/_ViewImports.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9fVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/_ViewStart.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Areas/MasterMind/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9fVmlld1N0YXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Views/Shared/Error.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Views/Shared/_LoginPartial.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Views/Shared/_Notification.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Views/_ViewImports.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Views/_ViewStart.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/ClientArea/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ2xpZW50QXJlYS9WaWV3cy9TaGFyZWQvX0xheW91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-9zqk4k4tji
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/CoachArea/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQ29hY2hBcmVhL1ZpZXdzL1NoYXJlZC9fTGF5b3V0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-8c0c4sijjj
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9TaGFyZWQvX0xheW91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-zpwklv9cu7
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Areas/MasterMind/Views/Shared/_LayoutGuest.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXMvTWFzdGVyTWluZC9WaWV3cy9TaGFyZWQvX0xheW91dEd1ZXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = b-q2icq14kyr
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Views/Shared/_Layout.cshtml]
+[/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-kml17vlsts
-
-[/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/Views/Shared/_LayoutGuest.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRHdWVzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-b85w5muy30

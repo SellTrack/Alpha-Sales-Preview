@@ -8,17 +8,16 @@ namespace AlphaSales.DataAccess.Repository
     {
         private readonly ApplicationDbContext _db;
 
-        public ISpecialityRepository Speciality { get; private set; }
-        public IUserSpecialityRepository UserSpeciality { get; private set; }
-        public IExerciseRepository Exercise { get; private set; }
-        public IUserExerciseRepository UserExercise { get; private set; }
+        public IEmployeeRepository Employee { get; private set; }
+        public ICorporationRepository Corporation { get; private set; }
+        public IClientRepository Client { get; private set; }
+
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
-            Speciality = new SpecialityRepository(_db);
-            UserSpeciality = new UserSpecialityRepository(_db);
-            Exercise = new ExerciseRepository(_db);
-            UserExercise = new UserExerciseRepository(_db);
+            Employee = new EmployeeRepository(_db);
+            Corporation = new CorporationRepository(_db);
+            Client = new ClientRepository(_db);
         }
 
         public void Save()

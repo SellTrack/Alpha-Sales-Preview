@@ -8,10 +8,10 @@ namespace AlphaSales.DataAccess.Repository.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {
-       ISpecialityRepository Speciality { get; }
-       IUserSpecialityRepository UserSpeciality { get; }
-       IExerciseRepository Exercise { get; }
-       IUserExerciseRepository UserExercise { get; }
+        IEmployeeRepository Employee { get; }
+        ICorporationRepository Corporation { get; }
+        IClientRepository Client { get; }
+
         void Save();
     }
 }

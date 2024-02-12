@@ -10,7 +10,6 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
-using AlphaSales.Areas.MasterMind.Controllers;
 using AlphaSales.DataAccess.Repository.IRepository;
 using AlphaSales.Models;
 using AlphaSales.Utility;
@@ -102,25 +101,22 @@ namespace AlphaSales.Areas.Identity.Pages.Account
             public string Name { get; set; }
 
             [Required]
-            public string Surname { get; set; }
+            public int CorporationID { get; set; }
 
+     
             public string? Role { get; set; }
             [ValidateNever]
             public IEnumerable<SelectListItem> RoleList { get; set; }
+            public IEnumerable<SelectListItem> CorporationList { get; set; }
         }
 
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-            if (!_roleManager.RoleExistsAsync(SD.Role_Admin).GetAwaiter().GetResult())
-            {
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Admin)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Client)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(SD.Role_Coach)).GetAwaiter().GetResult();
-            }
+            
 
-
-
+            var corporations = _unitOfWork.Corporation.GetAll();
+            var corporationList = corporations.Select(c => new SelectListItem { Value = c.CorporationID.ToString(), Text = c.Name }).ToList();
             var user = _userManager2.GetUserAsync(User).Result;
             if(user != null)
             {
@@ -139,8 +135,18 @@ namespace AlphaSales.Areas.Identity.Pages.Account
 
 
             };
-            
-            
+            CorporationList = _unitOfWork.Corporation.GetAll().Select(c => new SelectListItem
+            {
+                Value = c.CorporationID.ToString(),
+                Text = c.Name
+            });
+
+            CorporationList = _unitOfWork.Corporation.GetAll().Select(c => new SelectListItem
+            {
+                Value = c.CorporationID.ToString(),
+                Text = c.Name
+            });
+
 
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
@@ -158,11 +164,13 @@ namespace AlphaSales.Areas.Identity.Pages.Account
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
 
                 user.Name = Input.Name;
-                user.Surname = Input.Surname;
+                user.CorporationID = Input.CorporationID;
 
 
 
-                
+                var selectedCorporationID = Input.CorporationID;
+                var selectedCorporation = _unitOfWork.Corporation.Get(c => c.CorporationID == selectedCorporationID);
+
 
 
                 var result = await _userManager.CreateAsync(user, Input.Password);
@@ -178,7 +186,7 @@ namespace AlphaSales.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        await _userManager.AddToRoleAsync(user, SD.Role_Client);
+                        await _userManager.AddToRoleAsync(user, SD.Role_Employee);
                     }
                     
                     var userId = await _userManager.GetUserIdAsync(user);

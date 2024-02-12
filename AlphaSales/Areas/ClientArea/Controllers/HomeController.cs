@@ -34,13 +34,13 @@ namespace AlphaSales.Areas.ClientArea.Controllers
             {
                 return RedirectToAction("Index", "Admin", new { area = "MasterMind" });
             }
-            else if (User.IsInRole("Coach"))
+            else if (User.IsInRole("Employee"))
             {
-                return RedirectToAction("Index", "Coach", new { area = "CoachArea" });
+                return RedirectToAction("Index", "Employee", new { area = "EmployeeArea" });
             }
-            else if (User.IsInRole("Client"))
+            else if (User.IsInRole("Executive"))
             {
-                return RedirectToAction("Index", "Client", new { area = "ClientArea" });
+                return RedirectToAction("Index", "Executive", new { area = "EmployeeArea" });
             }
             else if (User.IsInRole("QCEmployee"))
             {
@@ -51,7 +51,7 @@ namespace AlphaSales.Areas.ClientArea.Controllers
                 return RedirectToAction("Index", "LeaderBoard", new { area = "LeaderBoardArea" });
             }
 
-                return RedirectToAction("GuestIndex", "Client", new { area = "ClientArea" });
+            return RedirectToPage("/Account/Login", new { area = "Identity" });
         }
 
         public IActionResult Privacy()

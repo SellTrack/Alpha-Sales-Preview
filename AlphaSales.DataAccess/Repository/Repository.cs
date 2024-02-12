@@ -15,12 +15,8 @@ namespace AlphaSales.DataAccess.Repository
         {
             _db = db;
             this.dbSet = _db.Set<T>();
-            _db.UserSpecialities.Include(u => u.Speciality).Include(u => u.Speciality_id);
-            _db.UserSpecialities.Include(u => u.ApplicationUser).Include(u => u.User_id);
-            _db.ExercisePlans.Include(u => u.ApplicationUser).Include(u => u.Coach_id);
-            _db.UserExercisePlans.Include(u => u.ApplicationUser).Include(u => u.Client_id);
-            _db.UserExercisePlans.Include(u => u.ExercisePlan).Include(u => u.Exercise_id);
-
+            _db.Clients.Include(u => u.Corporation).Include(u=>u.Corporation_ID);
+            _db.Clients.Include(u => u.ApplicationUser).Include(u => u.Client_Owner_ID).Include(u => u.Client_QC_Caller_ID);
         }
 
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/AlphaSales.csproj": {}
+    "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/AlphaSales.csproj": {}
   },
   "projects": {
-    "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/AlphaSales.DataAccess.csproj": {
+    "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/AlphaSales.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/AlphaSales.DataAccess.csproj",
+        "projectUniqueName": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/AlphaSales.DataAccess.csproj",
         "projectName": "AlphaSales.DataAccess",
-        "projectPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/AlphaSales.DataAccess.csproj",
+        "projectPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/AlphaSales.DataAccess.csproj",
         "packagesPath": "/Users/selmanorhan/.nuget/packages/",
-        "outputPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/obj/",
+        "outputPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/selmanorhan/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj": {
-                "projectPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj"
+              "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj": {
+                "projectPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj"
               },
-              "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj": {
-                "projectPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj"
+              "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj": {
+                "projectPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj"
               }
             }
           }
@@ -39,9 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -88,37 +85,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.8, 7.0.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.8, 7.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
->>>>>>> parent of 6abdc0f (little file updates)
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj": {
+    "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj",
+        "projectUniqueName": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj",
         "projectName": "AlphaSales.Models",
-        "projectPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj",
+        "projectPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj",
         "packagesPath": "/Users/selmanorhan/.nuget/packages/",
-        "outputPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Models/obj/",
+        "outputPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Models/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/selmanorhan/.nuget/NuGet/NuGet.Config"
@@ -139,9 +122,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -188,37 +168,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.8, 7.0.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.8, 7.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
->>>>>>> parent of 6abdc0f (little file updates)
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj": {
+    "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj",
+        "projectUniqueName": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj",
         "projectName": "AlphaSales.Utility",
-        "projectPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj",
+        "projectPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj",
         "packagesPath": "/Users/selmanorhan/.nuget/packages/",
-        "outputPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Utility/obj/",
+        "outputPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Utility/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/selmanorhan/.nuget/NuGet/NuGet.Config"
@@ -239,9 +205,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -272,37 +235,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.8, 7.0.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.8, 7.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
->>>>>>> parent of 6abdc0f (little file updates)
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/AlphaSales.csproj": {
+    "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/AlphaSales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/AlphaSales.csproj",
+        "projectUniqueName": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/AlphaSales.csproj",
         "projectName": "AlphaSales",
-        "projectPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/AlphaSales.csproj",
+        "projectPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/AlphaSales.csproj",
         "packagesPath": "/Users/selmanorhan/.nuget/packages/",
-        "outputPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales/obj/",
+        "outputPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/selmanorhan/.nuget/NuGet/NuGet.Config"
@@ -311,24 +260,21 @@
           "net7.0"
         ],
         "sources": {
-<<<<<<< HEAD
-          "/usr/local/share/dotnet/sdk/7.0.311/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
-=======
->>>>>>> parent of 6abdc0f (little file updates)
+          "/usr/local/share/dotnet/sdk/7.0.310/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/AlphaSales.DataAccess.csproj": {
-                "projectPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.DataAccess/AlphaSales.DataAccess.csproj"
+              "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/AlphaSales.DataAccess.csproj": {
+                "projectPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.DataAccess/AlphaSales.DataAccess.csproj"
               },
-              "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj": {
-                "projectPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj"
+              "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj": {
+                "projectPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Models/AlphaSales.Models.csproj"
               },
-              "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj": {
-                "projectPath": "/Users/selmanorhan/Documents/GitHub/fitness/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj"
+              "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj": {
+                "projectPath": "/Users/selmanorhan/Documents/GitHub/AlphaSales/AlphaSales.Utility/AlphaSales.Utility.csproj"
               }
             }
           }
@@ -337,9 +283,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -369,30 +312,6 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[7.0.10, )"
-            },
-            "Microsoft.AspNetCore.SignalR": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
-            "Microsoft.AspNetCore.SignalR.Client": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.AspNetCore.SignalR.Client.Core": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.AspNetCore.SignalR.Common": {
-              "target": "Package",
-              "version": "[8.0.0, )"
-            },
-            "Microsoft.AspNetCore.SignalR.Core": {
-              "target": "Package",
-              "version": "[1.1.0, )"
-            },
-            "Microsoft.AspNetCore.SignalR.Protocols.Json": {
-              "target": "Package",
-              "version": "[8.0.0, )"
             },
             "Microsoft.AspNetCore.StaticFiles": {
               "target": "Package",
@@ -436,20 +355,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.8, 7.0.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[7.0.8, 7.0.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.8, 7.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -458,11 +363,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.311/RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100-preview.6.23330.14/RuntimeIdentifierGraph.json"
->>>>>>> parent of 6abdc0f (little file updates)
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.310/RuntimeIdentifierGraph.json"
         }
       }
     }

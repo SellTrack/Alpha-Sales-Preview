@@ -22,238 +22,197 @@ namespace AlphaSales.DataAccess.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("AlphaSales.Models.CoachStat", b =>
+            modelBuilder.Entity("AlphaSales.Models.Client", b =>
                 {
-                    b.Property<int>("CoachStat_id")
+                    b.Property<int>("ClientID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CoachStat_id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ClientID"));
 
-                    b.Property<string>("Experience")
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Client_Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("User_id")
-                        .IsRequired()
+                    b.Property<string>("Client_Owner_ID")
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("CoachStat_id");
+                    b.Property<string>("Client_QC_Caller_ID")
+                        .HasColumnType("nvarchar(450)")
+                        .HasColumnOrder(3);
 
-                    b.HasIndex("User_id");
-
-                    b.ToTable("CoachStats");
-                });
-
-            modelBuilder.Entity("AlphaSales.Models.ExercisePlan", b =>
-                {
-                    b.Property<int>("ExercisePlan_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ExercisePlan_id"));
-
-                    b.Property<string>("Coach_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("ExerciseDuration")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Exercise_Name")
+                    b.Property<string>("Client_QC_Description")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Repeat_Count")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Set_count")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("StartDate")
+                    b.Property<DateTime>("Client_insert_date")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("VideoLinkUrl")
+                    b.Property<int>("Client_order_number")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Client_pdf_file_ID")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("status")
+                    b.Property<int>("Client_status")
                         .HasColumnType("int");
 
-                    b.HasKey("ExercisePlan_id");
-
-                    b.HasIndex("Coach_id");
-
-                    b.ToTable("ExercisePlans");
-                });
-
-            modelBuilder.Entity("AlphaSales.Models.Improvement", b =>
-                {
-                    b.Property<int>("Improvement_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Improvement_id"));
-
-                    b.Property<int>("BMIChange")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Height")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("RegisterDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("User_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("Weight")
-                        .HasColumnType("int");
-
-                    b.HasKey("Improvement_id");
-
-                    b.HasIndex("User_id");
-
-                    b.ToTable("Improvements");
-                });
-
-            modelBuilder.Entity("AlphaSales.Models.Matchmaking", b =>
-                {
-                    b.Property<int>("Matchmaking_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Matchmaking_id"));
-
-                    b.Property<string>("Client_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Coach_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Matchmaking_id");
-
-                    b.HasIndex("Client_id");
-
-                    b.HasIndex("Coach_id");
-
-                    b.ToTable("Matchmakings");
-                });
-
-            modelBuilder.Entity("AlphaSales.Models.NutritionPlan", b =>
-                {
-                    b.Property<int>("ExercisePlan_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ExercisePlan_id"));
-
-                    b.Property<string>("Client_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("Coach_id")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("ExerciseDuration")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Exercise_Name")
+                    b.Property<string>("Client_tariff_type")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Repeat_Count")
+                    b.Property<int>("Corporation_ID")
                         .HasColumnType("int");
 
-                    b.Property<int>("Set_count")
+                    b.HasKey("ClientID");
+
+                    b.HasIndex("ApplicationUserId");
+
+                    b.HasIndex("Client_Owner_ID");
+
+                    b.HasIndex("Client_QC_Caller_ID");
+
+                    b.HasIndex("Corporation_ID");
+
+                    b.ToTable("Clients");
+                });
+
+            modelBuilder.Entity("AlphaSales.Models.Corporation", b =>
+                {
+                    b.Property<int>("CorporationID")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("StartDate")
-                        .HasColumnType("datetime2");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CorporationID"));
 
-                    b.Property<string>("VideoLinkUrl")
+                    b.Property<string>("Adress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("MemberCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("status")
+                    b.Property<int>("SuccessfulSales")
                         .HasColumnType("int");
 
-                    b.HasKey("ExercisePlan_id");
+                    b.Property<int>("TotalSales")
+                        .HasColumnType("int");
 
-                    b.HasIndex("Client_id");
+                    b.Property<int>("UnsuccessfulSales")
+                        .HasColumnType("int");
 
-                    b.HasIndex("Coach_id");
+                    b.HasKey("CorporationID");
 
-                    b.ToTable("NutritionPlans");
+                    b.ToTable("Corporations");
+
+                    b.HasData(
+                        new
+                        {
+                            CorporationID = 1,
+                            Adress = "AA",
+                            City = "Amasya",
+                            MemberCount = 0,
+                            Name = "Alpha",
+                            SuccessfulSales = 0,
+                            TotalSales = 0,
+                            UnsuccessfulSales = 0
+                        },
+                        new
+                        {
+                            CorporationID = 2,
+                            Adress = "bb",
+                            City = "Akasya",
+                            MemberCount = 0,
+                            Name = "Beta",
+                            SuccessfulSales = 0,
+                            TotalSales = 0,
+                            UnsuccessfulSales = 0
+                        },
+                        new
+                        {
+                            CorporationID = 3,
+                            Adress = "cc",
+                            City = "Alaçam",
+                            MemberCount = 0,
+                            Name = "Charlie",
+                            SuccessfulSales = 0,
+                            TotalSales = 0,
+                            UnsuccessfulSales = 0
+                        });
                 });
 
-            modelBuilder.Entity("AlphaSales.Models.Speciality", b =>
+            modelBuilder.Entity("AlphaSales.Models.Employee", b =>
                 {
-                    b.Property<int>("Speciality_id")
+                    b.Property<int>("Employee_ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Speciality_id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Employee_ID"));
 
-                    b.Property<string>("SpecialityName")
+                    b.Property<string>("Corporation_ID")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Speciality_id");
+                    b.Property<int>("Declined_Client_Number")
+                        .HasColumnType("int");
 
-                    b.ToTable("Specialities");
+                    b.Property<int>("Successful_QCs")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Total_Client_Number")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Total_QCs")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Unsuccessful_QCs")
+                        .HasColumnType("int");
+
+                    b.Property<string>("User_ID")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Verified_Client_Number")
+                        .HasColumnType("int");
+
+                    b.HasKey("Employee_ID");
+
+                    b.ToTable("Employees");
                 });
 
-            modelBuilder.Entity("AlphaSales.Models.UserExercisePlan", b =>
+            modelBuilder.Entity("AlphaSales.Models.LanguagePack", b =>
                 {
-                    b.Property<int>("UserExercisePlan_id")
+                    b.Property<int>("Word_ID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserExercisePlan_id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Word_ID"));
 
-                    b.Property<string>("Client_id")
+                    b.Property<string>("DE")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(1)");
 
-                    b.Property<int>("Exercise_id")
-                        .HasColumnType("int");
-
-                    b.HasKey("UserExercisePlan_id");
-
-                    b.HasIndex("Client_id");
-
-                    b.HasIndex("Exercise_id");
-
-                    b.ToTable("UserExercisePlans");
-                });
-
-            modelBuilder.Entity("AlphaSales.Models.UserSpeciality", b =>
-                {
-                    b.Property<int>("UserSpeciality_id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserSpeciality_id"));
-
-                    b.Property<int>("Speciality_id")
-                        .HasColumnType("int");
-
-                    b.Property<string>("User_id")
+                    b.Property<string>("EN")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(1)");
 
-                    b.HasKey("UserSpeciality_id");
+                    b.Property<string>("TR")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
 
-                    b.HasIndex("Speciality_id");
+                    b.HasKey("Word_ID");
 
-                    b.HasIndex("User_id");
-
-                    b.ToTable("UserSpecialities");
+                    b.ToTable("LanguagePacks");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -466,14 +425,11 @@ namespace AlphaSales.DataAccess.Migrations
                 {
                     b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
 
-                    b.Property<string>("Adress")
+                    b.Property<int?>("CorporationID")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("int");
 
-                    b.Property<DateTime>("Birtdate")
-                        .HasColumnType("date");
-
-                    b.Property<int>("Height")
+                    b.Property<int>("Declined_Client_Number")
                         .HasColumnType("int");
 
                     b.Property<string>("Name")
@@ -484,131 +440,53 @@ namespace AlphaSales.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Surname")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Weight")
+                    b.Property<int>("Successful_QCs")
                         .HasColumnType("int");
 
-                    b.Property<string>("gender")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Total_Client_Number")
+                        .HasColumnType("int");
 
-                    b.Property<string>("profilephotopath")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Total_QCs")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Unsuccessful_QCs")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Verified_Client_Number")
+                        .HasColumnType("int");
+
+                    b.HasIndex("CorporationID");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
 
-            modelBuilder.Entity("AlphaSales.Models.CoachStat", b =>
+            modelBuilder.Entity("AlphaSales.Models.Client", b =>
                 {
+                    b.HasOne("AlphaSales.Models.ApplicationUser", null)
+                        .WithMany("Clients")
+                        .HasForeignKey("ApplicationUserId");
+
                     b.HasOne("AlphaSales.Models.ApplicationUser", "ApplicationUser")
                         .WithMany()
-                        .HasForeignKey("User_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("Client_Owner_ID")
+                        .OnDelete(DeleteBehavior.Restrict);
 
-                    b.Navigation("ApplicationUser");
-                });
-
-            modelBuilder.Entity("AlphaSales.Models.ExercisePlan", b =>
-                {
-                    b.HasOne("AlphaSales.Models.ApplicationUser", "ApplicationUser")
-                        .WithMany()
-                        .HasForeignKey("Coach_id")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("ApplicationUser");
-                });
-
-            modelBuilder.Entity("AlphaSales.Models.Improvement", b =>
-                {
-                    b.HasOne("AlphaSales.Models.ApplicationUser", "ApplicationUser")
-                        .WithMany()
-                        .HasForeignKey("User_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ApplicationUser");
-                });
-
-            modelBuilder.Entity("AlphaSales.Models.Matchmaking", b =>
-                {
                     b.HasOne("AlphaSales.Models.ApplicationUser", "ApplicationUser2")
                         .WithMany()
-                        .HasForeignKey("Client_id")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
+                        .HasForeignKey("Client_QC_Caller_ID")
+                        .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("AlphaSales.Models.ApplicationUser", "ApplicationUser")
+                    b.HasOne("AlphaSales.Models.Corporation", "Corporation")
                         .WithMany()
-                        .HasForeignKey("Coach_id")
-                        .OnDelete(DeleteBehavior.NoAction)
+                        .HasForeignKey("Corporation_ID")
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("ApplicationUser");
 
                     b.Navigation("ApplicationUser2");
-                });
 
-            modelBuilder.Entity("AlphaSales.Models.NutritionPlan", b =>
-                {
-                    b.HasOne("AlphaSales.Models.ApplicationUser", "ApplicationUser2")
-                        .WithMany()
-                        .HasForeignKey("Client_id")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.HasOne("AlphaSales.Models.ApplicationUser", "ApplicationUser")
-                        .WithMany()
-                        .HasForeignKey("Coach_id")
-                        .OnDelete(DeleteBehavior.NoAction)
-                        .IsRequired();
-
-                    b.Navigation("ApplicationUser");
-
-                    b.Navigation("ApplicationUser2");
-                });
-
-            modelBuilder.Entity("AlphaSales.Models.UserExercisePlan", b =>
-                {
-                    b.HasOne("AlphaSales.Models.ApplicationUser", "ApplicationUser")
-                        .WithMany()
-                        .HasForeignKey("Client_id")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("AlphaSales.Models.ExercisePlan", "ExercisePlan")
-                        .WithMany()
-                        .HasForeignKey("Exercise_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ApplicationUser");
-
-                    b.Navigation("ExercisePlan");
-                });
-
-            modelBuilder.Entity("AlphaSales.Models.UserSpeciality", b =>
-                {
-                    b.HasOne("AlphaSales.Models.Speciality", "Speciality")
-                        .WithMany()
-                        .HasForeignKey("Speciality_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("AlphaSales.Models.ApplicationUser", "ApplicationUser")
-                        .WithMany()
-                        .HasForeignKey("User_id")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("ApplicationUser");
-
-                    b.Navigation("Speciality");
+                    b.Navigation("Corporation");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -660,6 +538,22 @@ namespace AlphaSales.DataAccess.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("AlphaSales.Models.ApplicationUser", b =>
+                {
+                    b.HasOne("AlphaSales.Models.Corporation", "Corporation")
+                        .WithMany()
+                        .HasForeignKey("CorporationID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Corporation");
+                });
+
+            modelBuilder.Entity("AlphaSales.Models.ApplicationUser", b =>
+                {
+                    b.Navigation("Clients");
                 });
 #pragma warning restore 612, 618
         }

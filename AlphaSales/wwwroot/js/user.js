@@ -8,6 +8,13 @@ function loadDataTable() {
         "columns": [
             { data: 'name' },
             { data: 'role' },
+            { data: 'corporation' },
+            { data: 'total' },
+            { data: 'successful' },
+            { data: 'unsuccessful' },
+            { data: 'totalqc' },
+            { data: 'successfulqc' },
+            { data: 'unsuccessfulqc' },
             {
                 data: { id: 'id', lockoutEnd: "lockoutEnd" },
                 "render": function (data) {
@@ -16,25 +23,22 @@ function loadDataTable() {
                     if (lockout > today) {
                         return `
                         <div class="table-data-feature">
+                                <a href="/MasterMind/admin/rolemanagement?userId=${data.id}" class="item" data-toggle="tooltip" data-placement="top" title="Düzenle"><i class="zmdi zmdi-edit"></i></a>
                                 <a onclick=LockUnlock('${data.id}') class="item" data-toggle="tooltip" data-placement="top" title="Kiliti Kaldır"><i class="fa fa-lock"></i></a>
                         </div>`;
                     }
                     else {
                         return `
                         <div class="table-data-feature">
+                                <a href="/MasterMind/admin/rolemanagement?userId=${data.id}" class="item" data-toggle="tooltip" data-placement="top" title="Düzenle"><i class="zmdi zmdi-edit"></i></a>
                                 <a onclick=LockUnlock('${data.id}') class="item" data-toggle="tooltip" data-placement="top" title="Kilitle"><i class="fa fa-unlock"></i></a>
                         </div>`;
                     }
 
-                }
+                },
+                "width": "5%"
             }
-        ],
-        "info": false,
-        "pageLength": 10, // Sayfa başına görüntülenecek satır sayısı
-        "lengthChange": false, // Sayfa başına satır sayısını değiştirme seçeneğini kapatır
-        "paging": true, // Sayfalama özelliğini kapatır
-        "searching": false, // Arama kutusunu kapatır,
-        "pagingType": "simple" // Sayfalama türünü basitleştirilmiş versiyona ayarla
+        ]
     });
 }
 
@@ -52,3 +56,6 @@ function LockUnlock(id) {
         }
     });
 }
+
+
+

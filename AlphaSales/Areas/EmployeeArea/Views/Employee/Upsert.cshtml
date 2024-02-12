@@ -1,0 +1,264 @@
+﻿@model ClientVM
+@{ Layout = null; }
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+
+    <!-- Title Page-->
+    <title>Tables</title>
+
+    <!-- Fontfaces CSS-->
+    <link href="~/css/font-face.css" rel="stylesheet" media="all">
+    <link href="~/vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="~/vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="~/vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="~/vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    @inject Microsoft.AspNetCore.Mvc.IUrlHelper Url
+    <!-- Vendor CSS -->
+    <link href="@Url.Content("~/vendor/animsition/animsition.min.css")" rel="stylesheet" media="all">
+    <link href="@Url.Content("~/vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css")" rel="stylesheet" media="all">
+    <link href="@Url.Content("~/vendor/wow/animate.css")" rel="stylesheet" media="all">
+    <link href="@Url.Content("~/vendor/css-hamburgers/hamburgers.min.css")" rel="stylesheet" media="all">
+    <link href="@Url.Content("~/vendor/slick/slick.css")" rel="stylesheet" media="all">
+    <link href="@Url.Content("~/vendor/select2/select2.min.css")" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="~/css/theme.css" rel="stylesheet" media="all">
+
+</head>
+
+<body class="animsition">
+    <div class="page-wrapper">
+        <!-- HEADER MOBILE-->
+        <header class="header-mobile d-block d-lg-none">
+            <div class="header-mobile__bar">
+                <div class="container-fluid">
+                    <div class="header-mobile-inner">
+                        <a class="logo">
+                            <img src="images/icon/logo.png" alt="CoolAdmin" />
+                        </a>
+                        <button class="hamburger hamburger--slider" type="button">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar-mobile">
+                <div class="container-fluid">
+                    <ul class="navbar-mobile__list list-unstyled">
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tachometer-alt"></i>Eleman İşlemleri
+                            </a>
+                        </li>
+                        <li class="has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-desktop"></i>Müşteri İşlemleri
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- END HEADER MOBILE-->
+        <!-- MENU SIDEBAR-->
+        <aside class="menu-sidebar d-none d-lg-block">
+            <div class="logo">
+
+            </div>
+            <div class="menu-sidebar__content js-scrollbar1">
+                <nav class="navbar-sidebar">
+                    <ul class="list-unstyled navbar__list">
+                        <li class="has-sub">
+                            <a class="js-arrow" asp-area="EmployeeArea" asp-controller="Employee" asp-action="EmplClientIndex">
+                                <i class="fas fa-calendar-alt"></i>Satışları Görüntüle
+                            </a>
+                        </li>
+                        <li class="active has-sub">
+                            <a class="js-arrow" asp-area="EmployeeArea" asp-controller="Employee" asp-action="Upsert">
+                                <i class="fa fa-eur"></i>Satış İşlemleri
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+        <!-- END MENU SIDEBAR-->
+        <!-- PAGE CONTAINER-->
+        <div class="page-container">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap" style="float:right;">
+                            <div class="header-button">
+                                <div class="account-wrap">
+                                    <div class="account-item clearfix js-item-menu">
+                                        <div class="content">
+                                            <a class="js-acc-btn" href="#">@Model.UserName</a>
+                                        </div>
+                                        <div class="account-dropdown js-dropdown">
+                                            <div class="info clearfix">
+                                                <div class="content">
+                                                    <h5 class="name">
+                                                        <a href="#">@Model.UserName</a>
+                                                    </h5>
+                                                    <span class="email">@Model.Email</span>
+                                                </div>
+                                            </div>
+                                            <div class="account-dropdown__footer">
+                                                <a>
+                                                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-area="ClientArea" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "ClientArea" })" method="post">
+                                                        <button type="submit" class="nav-link btn btn-link text-dark"><i class="zmdi zmdi-power"></i>Çıkış Yap</button>
+                                                    </form>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- END HEADER DESKTOP-->
+            <!-- MAIN CONTENT-->
+            <div class="main-content">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <!--ADD NEW CLIENT-->
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header" cite>
+                                    <strong>Satış</strong> @(Model.Client.ClientID!=0?"güncelle":"oluştur")
+                                </div>
+                                <div class="card-body card-block">
+                                    <form method="post" enctype="multipart/form-data" class="form-horizontal">
+                                        <div class="row form-group">
+                                            <input asp-for="Client.ClientID" hidden />
+                                            <input asp-for="Client.Client_pdf_file_ID" hidden />
+                                            <input asp-for="Client.ApplicationUser" hidden />
+                                            <input asp-for="Client.ApplicationUser2" hidden />
+                                            <input asp-for="Client.Client_Owner_ID" hidden />
+                                            <input asp-for="Client.Client_Owner_Name" hidden />
+                                            <input asp-for="Client.Client_QC_Caller_ID" hidden />
+                                            <input asp-for="Client.Client_QC_Description" hidden />
+                                            <input asp-for="Client.Corporation" hidden />
+                                            <input asp-for="Client.Corporation_Name" hidden />
+                                            <input asp-for="Client.Corporation_ID" hidden />
+                                            <div class="col col-md-3">
+                                                <label asp-for="Client.Client_insert_date" class="form-control-label">İşlem Tarihi</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input asp-for="Client.Client_insert_date" name="Client.Client_insert_date" class="form-control" />
+                                                <span asp-validation-for="Client.Client_insert_date" class="text-danger"></span>
+
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">Sipariş Numarası</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" asp-for="Client.Client_order_number" id="text-input" name="Client.Client_order_number"  class="form-control" required>
+                                                <span asp-validation-for="Client.Client_order_number" class="text-danger"></span>
+
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label asp-for="Client.Client_tariff_type" for="text-input" class=" form-control-label">Tariff</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" asp-for="Client.Client_tariff_type" id="text-input" name="Client.Client_tariff_type" placeholder="" class="form-control" required>
+                                                <span asp-validation-for="Client.Client_tariff_type" class="text-danger"></span>
+
+                                            </div>
+                                        </div>
+                                        <!-- Diğer giriş alanları burada gelecek -->
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label asp-for="Client.Client_pdf_file_ID" class="form-control-label">PDF Dosyası</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="file" name="file" class="form-control-file" required/>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label asp-for="Client.Client_Description" class="form-control-label">Açıklama</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <textarea asp-for="Client.Client_Description" name="Client.Client_Description" rows="9" class="form-control" required></textarea>
+                                                <span asp-validation-for="Client.Client_Description" class="text-danger"></span>
+
+                                            </div>
+                                        </div>
+
+                                        @if (Model.Client.ClientID != 0)
+                                        {
+                                            <button type="submit" class="btn btn-primary btn-sm">
+                                                <i class="fa fa-dot-circle-o"></i> Satışı güncelle
+                                            </button>
+                                        }
+                                        else
+                                        {
+                                            <button type="submit" class="btn btn-primary btn-sm">
+                                                <i class="fa fa-dot-circle-o"></i> Yeni Müşteri Ekle
+                                            </button>
+                                        }
+
+                                        <a type="reset" class="btn btn-danger btn-sm" asp-area="EmployeeArea" asp-controller="Employee" asp-action="EmplClientIndex">
+                                            <i class="fa fa-ban"></i> İptal
+                                        </a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="~/vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="~/vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="~/vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <!-- Vendor JS       -->
+    <script src="~/vendor/slick/slick.min.js"></script>
+    <script src="~/vendor/wow/wow.min.js"></script>
+    <script src="~/vendor/animsition/animsition.min.js"></script>
+    <script src="~/vendor/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="~/vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="~/vendor/counter-up/jquery.counterup.min.js"></script>
+    <script src="~/vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="~/vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="~/vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="~/vendor/select2/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"></script>
+
+    <!-- Main JS-->
+    <script src="~/js/main.js"></script>
+
+</body>
+
+</html>
+<!-- end document-->

@@ -26,12 +26,6 @@
     <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
     <PackageReference Include="Captcha" Version="4.4.2" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.Json" Version="8.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR.Common" Version="8.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client.Core" Version="8.0.0" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
-    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Areas\MasterMind\" />
@@ -39,16 +33,12 @@
     <None Remove="Areas\MasterMind\Views\" />
     <None Remove="Areas\MasterMind\Views\Admin\" />
     <None Remove="Areas\ClientArea\" />
-    <None Remove="Areas\ClientArea\Views\" />
-    <None Remove="Areas\ClientArea\Views\Client\" />
-    <None Remove="Areas\MasterMind\Views\Shared\" />
-    <None Remove="Areas\CoachArea\" />
-    <None Remove="Areas\CoachArea\Views\" />
-    <None Remove="Areas\CoachArea\Views\Coach\" />
-    <None Remove="Areas\CoachArea\Controllers\" />
-    <None Remove="Areas\CoachArea\Views\Shared\" />
-    <None Remove="Areas\ClientArea\Views\Shared\" />
-    <None Remove="Hubs\" />
+    <None Remove="Areas\EmployeeArea\" />
+    <None Remove="Areas\MasterMind\Views\Corporation\" />
+    <None Remove="Areas\EmployeeArea\Views\" />
+    <None Remove="Areas\EmployeeArea\Controllers\" />
+    <None Remove="Areas\EmployeeArea\Views\ExecutiveClient\" />
+    <None Remove="Areas\MasterMind\Views\Client\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\MasterMind\" />
@@ -57,16 +47,12 @@
     <Folder Include="Areas\MasterMind\Views\" />
     <Folder Include="Areas\MasterMind\Views\Admin\" />
     <Folder Include="Areas\ClientArea\" />
-    <Folder Include="Areas\ClientArea\Views\" />
-    <Folder Include="Areas\ClientArea\Views\Client\" />
-    <Folder Include="Areas\MasterMind\Views\Shared\" />
-    <Folder Include="Areas\CoachArea\" />
-    <Folder Include="Areas\CoachArea\Views\" />
-    <Folder Include="Areas\CoachArea\Views\Coach\" />
-    <Folder Include="Areas\CoachArea\Controllers\" />
-    <Folder Include="Areas\CoachArea\Views\Shared\" />
-    <Folder Include="Areas\ClientArea\Views\Shared\" />
-    <Folder Include="Hubs\" />
+    <Folder Include="Areas\EmployeeArea\" />
+    <Folder Include="Areas\MasterMind\Views\Corporation\" />
+    <Folder Include="Areas\EmployeeArea\Views\" />
+    <Folder Include="Areas\EmployeeArea\Controllers\" />
+    <Folder Include="Areas\EmployeeArea\Views\ExecutiveClient\" />
+    <Folder Include="Areas\MasterMind\Views\Client\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AlphaSales.Models\AlphaSales.Models.csproj">

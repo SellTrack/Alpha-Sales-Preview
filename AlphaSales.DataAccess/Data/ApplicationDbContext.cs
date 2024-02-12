@@ -13,15 +13,10 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
     }
 
-
-    public DbSet<CoachStat> CoachStats { get; set; }
-    public DbSet<Speciality> Specialities { get; set; }
-    public DbSet<UserSpeciality> UserSpecialities { get; set; }
-    public DbSet<UserExercisePlan> UserExercisePlans { get; set; }
-    public DbSet<Matchmaking> Matchmakings { get; set; }
-    public DbSet<Improvement> Improvements { get; set; }
-    public DbSet<ExercisePlan> ExercisePlans { get; set; }
-    public DbSet<NutritionPlan> NutritionPlans { get; set; }
+    public DbSet<Client> Clients { get; set; }
+    public DbSet<Employee> Employees { get; set; }
+    public DbSet<Corporation> Corporations { get; set; }
+    public DbSet<LanguagePack> LanguagePacks { get; set; }
     public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -29,46 +24,29 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
         base.OnModelCreating(modelBuilder);
 
         // Diğer ASP.NET Identity özelleştirmeleri
-        modelBuilder.Entity<ApplicationUser>()
-       .Property(u => u.Birtdate)
-       .HasColumnType("date");
-        // Başka özelleştirmeler
 
-        modelBuilder.Entity<ExercisePlan>()
-        .HasOne(e => e.ApplicationUser)
-        .WithMany()
-        .HasForeignKey(e => e.Coach_id)
-        .OnDelete(DeleteBehavior.Restrict);
 
-        modelBuilder.Entity<UserExercisePlan>()
-            .HasOne(e => e.ApplicationUser)
+        modelBuilder.Entity<Client>()
+    .HasOne(c => c.ApplicationUser)
+    .WithMany()
+    .HasForeignKey(c => c.Client_Owner_ID)
+    .IsRequired(false)
+    .OnDelete(DeleteBehavior.Restrict);
+
+        modelBuilder.Entity<Client>()
+            .HasOne(c => c.ApplicationUser2)
             .WithMany()
-            .HasForeignKey(e => e.Client_id)
+            .HasForeignKey(c => c.Client_QC_Caller_ID)
+            .IsRequired(false)
             .OnDelete(DeleteBehavior.Restrict);
+            
 
-        modelBuilder.Entity<Matchmaking>()
-        .HasOne(e => e.ApplicationUser)
-        .WithMany()
-        .HasForeignKey(e => e.Coach_id)
-        .OnDelete(DeleteBehavior.NoAction);
+        modelBuilder.Entity<Corporation>().HasData(
+            new Corporation { CorporationID = 1, Name = "Alpha", Adress = "AA", City = "Amasya" },
+            new Corporation { CorporationID = 2, Name = "Beta", Adress = "bb", City = "Akasya" },
+            new Corporation { CorporationID = 3, Name = "Charlie", Adress = "cc", City = "Alaçam" }
+        );
 
-        modelBuilder.Entity<Matchmaking>()
-            .HasOne(e => e.ApplicationUser2)
-            .WithMany()
-            .HasForeignKey(e => e.Client_id)
-            .OnDelete(DeleteBehavior.NoAction);
-
-        modelBuilder.Entity<NutritionPlan>()
-        .HasOne(e => e.ApplicationUser)
-        .WithMany()
-        .HasForeignKey(e => e.Coach_id)
-        .OnDelete(DeleteBehavior.NoAction);
-
-        modelBuilder.Entity<NutritionPlan>()
-            .HasOne(e => e.ApplicationUser2)
-            .WithMany()
-            .HasForeignKey(e => e.Client_id)
-            .OnDelete(DeleteBehavior.NoAction);
-        
+        // Başka özelleştirmeler
     }
 }

@@ -9,10 +9,8 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using AlphaSales.DataAccess.Repository.IRepository;
 using AlphaSales.DataAccess.Repository;
 using AlphaSales.DataAccess.DbInitializer;
-using AlphaSales.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
-
 
 // Add services to the container.
 builder.Services.AddIdentityCore<ApplicationUser>().AddEntityFrameworkStores<ApplicationDbContext>()
@@ -21,16 +19,17 @@ builder.Services.AddSingleton<IUrlHelperFactory, UrlHelperFactory>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IEmailSender, EmailSender>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IClientRepository, ClientRepository>();
+builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+builder.Services.AddScoped<ICorporationRepository, CorporationRepository>();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")),
-    ServiceLifetime.Scoped);
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>() // Özel ApplicationUser sınıfı için yapılandırma
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
-builder.Services.AddSignalR();
 
 
 builder.Services.ConfigureApplicationCookie(options =>
@@ -60,7 +59,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 SeedDataBase(); 
 app.MapRazorPages();
-app.MapHub<ChatHub>("/chatHub");
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{area=ClientArea}/{controller=Home}/{action=Index}/{id?}");

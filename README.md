@@ -27,9 +27,11 @@ Employee table. You can see your employees status, edit their roles or block the
 registering a sale panel. You add date sale order number, tariff pdf file and any description if needed
  ![Sale register panel](https://github.com/SellTrack/Alpha-Sales-Preview/blob/main/Media/Screenshot%202023-09-18%20at%206.32.44%E2%80%AFPM.jpg?raw=true)
 
- ![new team adding](https://github.com/SellTrack/Alpha-Sales-Preview/blob/main/Media/Screenshot%202023-09-18%20at%206.32.54%E2%80%AFPM.jpg?raw=true)
+if you going to delete any sales, you will get alerted like this panel to make sure what you are doing
+ ![delete panel](https://github.com/SellTrack/Alpha-Sales-Preview/blob/main/Media/Screenshot%202023-09-18%20at%206.32.54%E2%80%AFPM.jpg?raw=true)
 
-
+registering new employee panel, you can select which team it will work, which role it will be, e-mail and password.
+ ![New employee panel](https://github.com/SellTrack/Alpha-Sales-Preview/blob/main/Media/Screenshot%202024-02-13%20at%202.31.58%E2%80%AFPM.jpg?raw=true)
 
 
 

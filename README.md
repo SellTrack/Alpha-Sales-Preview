@@ -12,6 +12,8 @@ With this app you can track your employees. Who is making most sales, who is mor
  This project developed using C#, .NET, Docker, Azure Data Studio, Azure SQL, HTML, CSS, Javascript, Bootstrap, Visual Studio, github, Entity frameworks, ASP.NET Core Identity and many other Nuget packages
 
  # :camera: Some images from app
+ 
+ ![new team adding](https://github.com/SellTrack/Alpha-Sales-Preview/blob/main/Media/Screenshot%202024-02-13%20at%204.37.47%E2%80%AFAM.jpg?raw=true)
 
  ![new team adding](https://github.com/SellTrack/Alpha-Sales-Preview/blob/main/Media/Screenshot%202023-09-17%20at%203.39.16%E2%80%AFPM.jpg?raw=true)
 

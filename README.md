@@ -11,6 +11,34 @@ With this app you can track your employees. Who is making most sales, who is mor
 # :question: Which language, libraries and apps used for this project
  This project developed using C#, .NET, Docker, Azure Data Studio, Azure SQL, HTML, CSS, Javascript, Bootstrap, Visual Studio, github, Entity frameworks, ASP.NET Core Identity and many other Nuget packages
 
+
+# :sparkles: What i achieved in this project
+this was my very first web app and biggest project ever. I encounter many errors and bugs while this journey and never give up. Im thinking with this experience im am well capable to work as a intern in web company.
+
+here is the list what i achieved.
+
+:white_check_mark: Developed interactive, responsive and scalable frontend with CSS templates.
+
+:white_check_mark: Developed backend applications with .NET Core , C# , Azure SQL.
+
+:white_check_mark: Studied and applied the architecture of MVC, Then moved it into N- Tier Architecture.
+
+:white_check_mark: Solved various bugs and errors while learning from windows teacher while developing on Mac
+device.
+
+:white_check_mark: CRUD operations/functions developed to handle HTTP request and responses to communicate DB
+
+:white_check_mark: Developed authentication and authorization system with NuGet Packages, .NET Core, C#
+
+:white_check_mark: Developed database and integrated with website using Azure Data Studio, Azure SQL,
+Docker, .NET Core, C#
+
+:white_check_mark: Developed dynamic real time table viewer with AJAX json.
+
+:white_check_mark: Implemented file upload and download system.
+
+:white_check_mark: Deployed and providing maintenance service for website
+
  # :camera: Some images from app
 
 Login panel
@@ -41,42 +69,14 @@ When recording sales, i put check system to make sure every field is filled.
 I put check system to make strong passwords. You need to set a password that has at least 1 upper case 1 lower case, 1 number, 1 symbol and has to be at least 8 digit.
 ![New employee panel](https://github.com/SellTrack/Alpha-Sales-Preview/blob/main/Media/Screenshot%202024-02-13%20at%202.39.34%E2%80%AFPM.jpg?raw=true)
 
+# Resources
+ I followed this udemy course to make this project.
 
-# What i achieved in this project
-this was my very first web app and biggest project ever. I encounter many errors and bugs while this journey and never give up. Im thinking with this experience im am well capable to work as a intern in web company.
+ :link: https://www.udemy.com/share/101uZQ3@-ed6NlOhpT6Qs6GRrte9O52eJOUcSv3Vt3HP1wuhcVtCyFnWZaoxrFao6Z1ilNFUhA==/
 
-here is the list what i achieved.
+ I used this template while designing ui 
 
-:white_check_mark: Developed interactive, responsive and scalable frontend with CSS templates.
-
-:white_check_mark: Developed backend applications with .NET Core , C# , Azure SQL.
-
-:white_check_mark: Studied and applied the architecture of MVC, Then moved it into N- Tier Architecture.
-
-:white_check_mark: Solved various bugs and errors while learning from windows teacher while developing on Mac
-device.
-
-:white_check_mark: CRUD operations/functions developed to handle HTTP request and responses to communicate DB
-
-:white_check_mark: Developed authentication and authorization system with NuGet Packages, .NET Core, C#
-
-:white_check_mark: Developed database and integrated with website using Azure Data Studio, Azure SQL,
-Docker, .NET Core, C#
-
-:white_check_mark: Developed dynamic real time table viewer with AJAX json.
-
-:white_check_mark: Implemented file upload and download system.
-
-:white_check_mark: Deployed and providing maintenance service for website
-
-
-
-
-
-
-
-
-
+ :link: https://github.com/puikinsh/CoolAdmin
 
 
 

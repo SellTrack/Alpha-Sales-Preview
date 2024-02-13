@@ -48,16 +48,25 @@ this was my very first web app and biggest project ever. I encounter many errors
 here is the list what i achieved.
 
 :white_check_mark: Developed interactive, responsive and scalable frontend with CSS templates.
+
 :white_check_mark: Developed backend applications with .NET Core , C# , Azure SQL.
+
 :white_check_mark: Studied and applied the architecture of MVC, Then moved it into N- Tier Architecture.
+
 :white_check_mark: Solved various bugs and errors while learning from windows teacher while developing on Mac
 device.
+
 :white_check_mark: CRUD operations/functions developed to handle HTTP request and responses to communicate DB
+
 :white_check_mark: Developed authentication and authorization system with NuGet Packages, .NET Core, C#
+
 :white_check_mark: Developed database and integrated with website using Azure Data Studio, Azure SQL,
 Docker, .NET Core, C#
+
 :white_check_mark: Developed dynamic real time table viewer with AJAX json.
+
 :white_check_mark: Implemented file upload and download system.
+
 :white_check_mark: Deployed and providing maintenance service for website
 
 
